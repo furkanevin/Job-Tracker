@@ -89,6 +89,15 @@
       "status": "Reddedildi",
       "type": "Uzaktan",
       "date": "25 Mart 2023"
+    },
+    {
+      "id": 1679520242918,
+      "position": "asd",
+      "company": "asd",
+      "location": "asd",
+      "status": "Devam Ediyor",
+      "type": "Tam Zaman",
+      "date": "3/23/2023"
     }
   ]
 }
