@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+//! HEADER
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  div {
+    display: flex;
+    gap: 20px;
+  }
+}
+
+//! LİSTE SAYFASI
+
+// filtreleme
+.filter-sec {
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: rgba(174, 0, 255, 0.285) 0px 22px 70px 4px;
+  padding: 20px;
+  .inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    .input-field {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      input {
+        padding: 5px 10px;
+      }
+      select {
+        padding: 5px 10px;
+      }
+    }
+  }
+}
+// List Section
+.job-count {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.list-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  column-gap: 50px;
+  row-gap: 50px;
+  padding: 50px;
+  .job-card {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.443);
+    .head {
+      display: flex;
+      gap: 40px;
+      margin-bottom: 20px;
+      .letter {
+        height: 60px;
+        width: 60px;
+        text-align: center;
+        background-color: rgb(102, 0, 211);
+        font-size: 30px;
+        display: grid;
+        place-items: center;
+        border-radius: 10px;
+      }
+      .info {
+        flex-direction: column;
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+    .body {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 30px;
+      .field {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+      .status {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        p {
+          background-color: rgb(255, 196, 0);
+          padding: 10px 20px;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
+// RESPONSIVE
+// Telefonlara kadar
+@media only screen and (max-width: 400px) {
+}
+// büyük telefon-Tablet
+@media only screen and (max-width: 600px) {
+}
+
+/* Untill Medium Devices */
+@media only screen and (max-width: 768px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1400px) {
+}

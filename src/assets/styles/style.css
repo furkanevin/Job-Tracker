@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+header div {
+  display: flex;
+  gap: 20px;
+}
+
+.filter-sec {
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: rgba(174, 0, 255, 0.285) 0px 22px 70px 4px;
+  padding: 20px;
+}
+.filter-sec .inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.filter-sec .inputs .input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.filter-sec .inputs .input-field input {
+  padding: 5px 10px;
+}
+.filter-sec .inputs .input-field select {
+  padding: 5px 10px;
+}
+
+.job-count {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.list-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  row-gap: 50px;
+  padding: 50px;
+}
+.list-section .job-card {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.443);
+}
+.list-section .job-card .head {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+.list-section .job-card .head .letter {
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  background-color: rgb(102, 0, 211);
+  font-size: 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+}
+.list-section .job-card .head .info {
+  flex-direction: column;
+}
+.list-section .job-card .head .info p {
+  font-size: 20px;
+}
+.list-section .job-card .body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 30px;
+}
+.list-section .job-card .body .field {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.list-section .job-card .body .field img {
+  width: 40px;
+  height: 40px;
+}
+.list-section .job-card .body .status {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+.list-section .job-card .body .status p {
+  background-color: rgb(255, 196, 0);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+/* Untill Medium Devices */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) *//*# sourceMappingURL=style.css.map */
